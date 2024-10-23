@@ -6,8 +6,8 @@
 }
 
 body{
-    background-image: linear-gradient(rgb(228, 247, 252) 0%, 5%, white 90%);
-
+    background-image: linear-gradient(rgb(228, 247, 252) 1%, white 300px);
+    height: 4006px;
 }
 
 /* Header */
@@ -23,6 +23,7 @@ body{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #42A7C3;
+    margin-left: 30px;
 }
 
 /* Menu-List */
@@ -39,13 +40,13 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Base Button */
+/* Sign up Button */
 #flex-container button{
     padding: 10px 24px;
     background-color: #FA8443;
     border: none;
     border-radius: 10px;
-    color: #fff;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -54,40 +55,41 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 40px;
+    margin-left: 60px;
     margin-top: 70px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #hero-section h1{
     margin-bottom: 10px;
-    font-size: 59px;
+    font-size: 70px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #333;
 }
 
 #hero-section p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     color: #333;
 }
 
 #hero-section > img{
-    width: 270px;
+    width: 370px;
     margin-top: 20px;
 }
 
 #hero-section .image{
     position: absolute;
     top: 80px;
-    right: 20px;
+    right: 0px;
 }
 
+/* Popular page */
 #popular{
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
-    margin-top: 250px;
+    margin-left: 60px;
+    margin-top: 350px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -95,10 +97,43 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 10px;
     color: #333;
+    font-size: 50px;
 }
 
 #popular p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     color: #333;
+}
+
+#places{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+/* Third Page */
+#side{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 40px;
+}
+
+#side img:nth-of-type(2){
+    position: absolute;
+    top: 1700px;
+    right: 20px;
+    height: 95ch;
+}
+
+#side img:nth-of-type(3){
+    position: absolute;
+    top: 2600px;
+    margin-left: 110px;
+}
+
+#side img:last-child{
+   position: absolute;
+   top: 470ch;
+    right: 50px
 }
